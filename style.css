@@ -1,0 +1,76 @@
+*{
+    margin:0;
+}
+.item1{
+    grid-area: a;
+    background-color: rgb(91, 136, 235);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.item2{
+    grid-area: b;
+    background-color: rgba(91, 137, 235, 0.486);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'a'
+    'b';
+}
+
+.tabelasql, tr, td{
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 5px;
+}
+.head{
+    background-color: grey;
+}
+.son{
+    background-color: lightgrey;
+}
+
+h1{
+    margin-top: 100px;
+}
+
+.btnref{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(75, 73, 70, 0.466);
+    border-radius: 20px;
+    border: 0;
+}
+
+input{
+    height: 20px;
+    background-color: rgba(10, 74, 126, 0.466);
+    border-radius: 20px;
+    border: 0;
+}
+
+.btnform{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 30px;
+    background-color: rgba(75, 73, 70, 0.466);
+    border-radius: 20px;
+    border: 0;
+}
+
